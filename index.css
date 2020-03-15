@@ -1,0 +1,159 @@
+html {
+  box-sizing: border-box;
+}
+
+* {
+  box-sizing: inherit;
+  background-size: cover;
+}
+
+body {
+  margin: 0;
+  color: #484848;
+  font-family: 'Lato', sans-serif;
+}
+
+img {
+  object-fit: cover;
+  display: block;
+}
+
+.input::placeholder {
+  color: #c5c5c5;
+}
+
+.nav-container {
+  text-align: right;
+  padding: 16px 24px;
+}
+
+.nav-brand {
+  width: 48px;
+  height: 48px;
+  float: left;
+}
+
+.nav-item {
+  font-size: 14px;
+  color: white;
+  padding: 16px 0;
+  margin: 0 8px;
+}
+
+.main-container {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1566288623500-66fdb0f40fa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2251&q=80');
+}
+
+.card {
+  width: 450px;
+  background-color: white;
+  border-radius: 4px;
+  padding: 32px;
+  margin: 96px 0 0 96px;
+}
+
+.heading {
+  font-size: 32px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.button-container {
+  text-align: right;
+}
+
+.button {
+  background-color: #ff5a5f;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  display:inline-block;
+  padding: 12px 24px;
+}
+
+.footer {
+  color: white;
+  text-align: right;
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+  width: 180px;
+}
+
+.label {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.input {
+  font-size: 16px;
+  font-weight: 300;
+  height: 48px;
+  margin-bottom: 20px;
+  padding: 0 16px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 256px 0 0;
+  }
+  .main-container {
+    height: fit-content;
+    background-position: top;
+  }
+  .footer {
+    display: none;
+  }
+}
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Start writing your code here
+--------------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------------------------------------------------
+ # Solution
+--------------------------------------------------------------------------------------------------------- */
+
+/* 
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    margin: 256px 0 0;
+  }
+  .main-container {
+    height: fit-content;
+    background-position: top;
+  }
+  .footer {
+    display: none;
+  }
+} 
+*/
